@@ -1,0 +1,15 @@
+YT2160Hook NOTICE
+
+This project contains an independently written port of selected YouTube video-quality
+behavior from the following GPL-3.0 projects:
+
+- NexAlloy: https://github.com/NexAlloy/NexAlloy
+- Morphe patches: https://github.com/NexAlloy/morphe-patches
+
+The upstream implementation is attributed in its source to Morphe and identifies
+ReVanced code as its original hard-fork origin. This project does not include the
+NexAlloy/Morphe runtime or bundle upstream source files. The quality-selection
+behavior and ClientAbrState field mapping were used as implementation references.
+
+Modified/independently reimplemented for a standalone LSPosed module on 2026-10-31.
+This entire derivative project is licensed under GNU GPL version 3. See LICENSE.
